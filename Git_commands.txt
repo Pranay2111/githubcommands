@@ -1,0 +1,36 @@
+       Details                                                                                                              Command line
+====================================================================================================================================================
+
+To Create a new local repository                                                                            git init
+
+Tell Git who you are 	                                                                               git config --global user.name "Sam Smith"
+Configure the author name and email address to be used with your
+ commits.Note that Git strips some characters (for example trailing periods) 
+from user.name.
+	
+Add files 	                                                                                                               git add *
+
+Add one or more files to staging (index): 	                                               git add <filename>
+
+Commit 	Commit changes to head (but not yet to the remote repository):          git commit -m "Commit message"
+
+Commit any files you've added with git add,                                                          git commit -a
+and also commit any files you've changed since then: 	
+
+Status 	List the files you've changed and those you still need to add                  git status
+                or commit: 	
+
+
+git config --global user.email sam@example.com
+
+Check out a repository        Create a working copy of a local repository:               git clone /path/to/repository
+
+Push 	Send changes to the master branch of your remote repository: 	git push origin master
+
+Connect to a remote repository 	If you haven't connected your
+                                                          local repository to a remote server, 
+                                                        add the server to be able to push to it:            git remote add origin <server>
+List all currently configured remote repositories: 	                                                git remote -v
+
+
+git clone ssh://git@github.com/pranay2111/learning-part2.git
